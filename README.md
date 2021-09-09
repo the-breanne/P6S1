@@ -1,4 +1,4 @@
-# skills-list
+# skills-list project by Breanne Beutler
 
 ## Project setup
 ```
