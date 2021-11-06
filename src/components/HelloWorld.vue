@@ -2,7 +2,7 @@
   <div class="container">
     <div class = "holder">
       <form @submit.prevent="addSkill">
-        <input type="text" placeholder="Enter a skill you have.."  v-model="skill">
+        <input type="text" placeholder="Enter a task you have.."  v-model="skill">
       </form>
       
       <ul>
@@ -23,8 +23,8 @@ export default {
   data() {
     return {
       skills: [
-          { "skill": "Vue.js" },
-          { "skill": "Frontend Developer" },
+          { "skill": "Check Emails" },
+          { "skill": "Daily Standup Call" },
       ]
     }
   },
